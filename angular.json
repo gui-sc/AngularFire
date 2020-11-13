@@ -117,8 +117,16 @@
               "devServerTarget": "angularfire:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "angularfire"
+    }
+  },
+  "defaultProject": "angularfire",
+  "cli": {
+    "analytics": "abff9e01-cb03-496e-adfb-47e0fb886695"
+  }
 }
